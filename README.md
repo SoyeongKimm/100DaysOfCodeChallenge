@@ -38,7 +38,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#49**|13|14|15|16|17|18|19|
 |**#50**|20|21|22|23|24|25|26|
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-33-dec-24-2023)|
-|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-34-dec-25-2023)|35|36|37|38|39|40|
+|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#day-35-dec-26-2023)|36|37|38|39|40|
 |**#01**|41|42|43|44|45|46|47|
 |**#02**|48|49|50|51|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
@@ -74,6 +74,13 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 35 (Dec 26, 2023)
+
+- Created a new remote repository and move the folders and files to it
+- Downloaded Visual Studio Code to edit the README file
+
+<br>
 
 ### Day 34 (Dec 25, 2023) 
 
