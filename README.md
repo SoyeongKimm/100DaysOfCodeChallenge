@@ -38,7 +38,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#49**|13|14|15|16|17|18|19|
 |**#50**|20|21|22|23|24|25|26|
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
-|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|36|37|38|39|40|
+|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|37|38|39|40|
 |**#01**|41|42|43|44|45|46|47|
 |**#02**|48|49|50|51|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
@@ -75,8 +75,11 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
-### Day 35 (Dec 26, 2023)
+### Day 36 (Dec 27, 2023)
+- Implemented swipable cells thanks to [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit)
+- Add comments #1 to #12 about the steps to make cells swipable
 
+### Day 35 (Dec 26, 2023)
 - Reinstalled [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit?tab=readme-ov-file#swift-package-manager) by using Swift Package Manager
 - Created a new remote repository and move the folders and files to it
 - Downloaded and used [Visual Studio Code](https://code.visualstudio.com/docs/setup/mac) to edit the README file
@@ -84,14 +87,12 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ### Day 34 (Dec 25, 2023) 
-
 - Removed Realm from the project installed by using CocoaPods
 - Installed [Realm](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation) again by using Swift Package Manager
 
 <br>
 
 ### Day 33 (Dec 24, 2023) 
-
 **Implement the functionality of cell deletion by using a third party library** <br>
 1. Go to [CocoaPods](https://cocoapods.org/) > Search "swipe" > Select "[SwipeCellKit](https://cocoapods.org/pods/SwipeCellKit)" <br>
 or Go to [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit) on GitHub
@@ -164,7 +165,6 @@ $ pod install
 <br>
 
 ### Day 32 (Dec 23, 2023) 
-
 Swipeable `UITableViewCell` <br>
 [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit)
 
@@ -174,9 +174,6 @@ Markdown Syntax <br>
 <br>
 
 ### Day 31 (Dec 22, 2023) 
-
-<br>
-
 Framework 
 - dynamic framework
 - static framework 
