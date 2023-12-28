@@ -7,10 +7,14 @@
 
 import UIKit
 import RealmSwift
-import SwipeCellKit
+//import SwipeCellKit
 //1. import the third party library
+//20. Delete import statement
 
-class CategoryViewController: UITableViewController {
+
+//19. Subclass SwipeTableViewController
+//class CategoryViewController: UITableViewController {
+class CategoryViewController: SwipeTableViewController {
     
     let realm = try! Realm()
     
@@ -47,9 +51,19 @@ class CategoryViewController: UITableViewController {
 //    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! SwipeTableViewCell
+
+//21. get rid of all of the mentions of SwipeCellKit
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! SwipeTableViewCell
+        
+        let cell = super.tableView(tableView, cellForRowAt: indexPath)
+        
         cell.textLabel?.text = categories?[indexPath.row].name ?? "No categories added yet."
-        cell.delegate = self
+        
+//22. get rid of all of the mentions of SwipeCellKit
+//        cell.delegate = self
+  
+//23. Create the superclass tableView(cellForRowAt indexPath)
+//Head over to the SwipeTableViewController
         return cell
     }
 //9. Downcasting error. Change the cell's class and module.
@@ -94,6 +108,25 @@ class CategoryViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    // MARK: - Delete Data From Swipe
+//28. Override the method for deletion
+    override func updateModel(at indexPath: IndexPath) {
+        
+        super.updateModel(at: indexPath)
+        
+        if let categoryForDeletion = self.categories?[indexPath.row] {
+            
+            do {
+                try self.realm.write {
+                    self.realm.delete(categoryForDeletion)
+                }
+            } catch {
+                print("Error deleting category, \(error)")
+            }
+        }
+    }
+    
+
     
     // MARK: - Add New Categories
     
@@ -124,61 +157,64 @@ class CategoryViewController: UITableViewController {
     
 }
 
-//4. Make a pragma MARK
-// MARK: - Swipe Cell Delegate Methods
-
-
-//3. Adopt the SwipeTableViewCellDelegate protocol
-//Create an extension to modularize and split up the functionality
-extension CategoryViewController: SwipeTableViewCellDelegate {
-
-//5. Add the delegate methods
-//  Copy from the documentation(what should happen when a user actually swipes on the cells?)
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
-        guard orientation == .right else { return nil }
-        //Orientation of the swipe is from the right to the left
-
-//11. Implement action after swiped and clicked
-// Action: Delete the selected category in the category array
-// Optional binding
-        let deleteAction = SwipeAction(style: .destructive, title: "Delete") { action, indexPath in
-        //Handle what should happen when the cell gets swiped and clicked
-        //title is the text underneath that Delete image
-        
-            if let categoryForDeletion = self.categories?[indexPath.row] {
-               
-                do {
-                    try self.realm.write {
-                        self.realm.delete(categoryForDeletion)
-                    }
-                } catch {
-                    print("Error deleting category, \(error)")
-                }
-                
-                //tableView.reloadData()
-            }
-        }
-
-//8. Match the name with the image name
-        deleteAction.image = UIImage(named: "Delete")
-        //Customize the action appearance
-
-//6. Get the image of "delete(trash)" and drag it into my Assets.xcassets folder
-//  File path: https://github.com/SwipeCellKit/SwipeCellKit/blob/develop/Example/MailExample/Assets.xcassets/Trash.imageset/Trash%20Icon.png
-
-//7. Rename the image with no space in-bewteen the two words if there is any spaces
-//  Place the image in 2x position
-        
-        return [deleteAction]
-    }
-    
-//12. Expansion style for destructive(Swipe further then deleted)
-    func tableView(_ tableView: UITableView, editActionsOptionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> SwipeOptions {
-        var options = SwipeOptions()
-        options.expansionStyle = .destructive
-        return options
-    }
-}
-
-
-
+////4. Make a pragma MARK
+//// MARK: - Swipe Cell Delegate Methods
+//
+//
+////3. Adopt the SwipeTableViewCellDelegate protocol
+////Create an extension to modularize and split up the functionality
+//extension CategoryViewController: SwipeTableViewCellDelegate {
+//
+////5. Add the delegate methods
+////  Copy from the documentation(what should happen when a user actually swipes on the cells?)
+//    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
+//        guard orientation == .right else { return nil }
+//        //Orientation of the swipe is from the right to the left
+//
+////11. Implement action after swiped and clicked
+//// Action: Delete the selected category in the category array
+//// Optional binding
+//        let deleteAction = SwipeAction(style: .destructive, title: "Delete") { action, indexPath in
+//        //Handle what should happen when the cell gets swiped and clicked
+//        //title is the text underneath that Delete image
+//        
+//            if let categoryForDeletion = self.categories?[indexPath.row] {
+//               
+//                do {
+//                    try self.realm.write {
+//                        self.realm.delete(categoryForDeletion)
+//                    }
+//                } catch {
+//                    print("Error deleting category, \(error)")
+//                }
+//                
+//                //tableView.reloadData()
+//            }
+//        }
+//
+////8. Match the name with the image name
+//        deleteAction.image = UIImage(named: "Delete")
+//        //Customize the action appearance
+//
+////6. Get the image of "delete(trash)" and drag it into my Assets.xcassets folder
+////  File path: https://github.com/SwipeCellKit/SwipeCellKit/blob/develop/Example/MailExample/Assets.xcassets/Trash.imageset/Trash%20Icon.png
+//
+////7. Rename the image with no space in-bewteen the two words if there is any spaces
+////  Place the image in 2x position
+//        
+//        return [deleteAction]
+//    }
+//    
+////12. Expansion style for destructive(Swipe further then deleted)
+//    func tableView(_ tableView: UITableView, editActionsOptionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> SwipeOptions {
+//        var options = SwipeOptions()
+//        options.expansionStyle = .destructive
+//        return options
+//    }
+//}
+//
+//
+////13. Make the cell in TodoListViewController also swipable
+////  Copy and paste the code(X) Create a superClass with the repeated code(O)
+////  Controllers > New File > Cocoa Touch Class > Class SwipeTableViewController, Subclass of UITableViewController
+////  Move on to SwipeTableViewController
