@@ -7,9 +7,10 @@
 
 import UIKit
 import RealmSwift
-import SwipeCellKit
 
-class TodoListViewController: UITableViewController {
+//29. <Subclass SwipeTableViewController>
+//class TodoListViewController: UITableViewController {
+class TodoListViewController: SwipeTableViewController {
     
     var todoItems: Results<Item>?
     let realm = try! Realm()
@@ -27,6 +28,10 @@ class TodoListViewController: UITableViewController {
         print(dataFilePath)
         
 //        loadItems()
+        
+//33. <Expand cell hight>
+// Add the code here or in superClass
+        tableView.rowHeight = 80
     }
     
     // MARK: - TableView DataSource Methods
@@ -35,8 +40,11 @@ class TodoListViewController: UITableViewController {
         return todoItems?.count ?? 1
     }
     
+//30.
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoItemCell", for: indexPath)
+        
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoItemCell", for: indexPath)
+        let cell = super.tableView(tableView, cellForRowAt: indexPath)
         
         if let item = todoItems?[indexPath.row] {
             cell.textLabel?.text = item.title
@@ -48,6 +56,9 @@ class TodoListViewController: UITableViewController {
         
         return cell
     }
+    
+//31.
+// Storyboard > Item scene > cell > Identity inspector > Class SwipeTableViewCell, Module SwipeCellKit
     
     // MARK: - TableView Delegate Methods
     
@@ -112,6 +123,22 @@ class TodoListViewController: UITableViewController {
         
         tableView.reloadData()
     }
+    
+//32.
+    override func updateModel(at indexPath: IndexPath) {
+       
+        if let itemForDeletion = self.todoItems?[indexPath.row] {
+            
+            do {
+                try self.realm.write {
+                    self.realm.delete(itemForDeletion)
+                }
+            } catch {
+                print("Error deleting item, \(error)")
+            }
+        }
+    }
+    
 }
 
 // MARK: - SearchBar Delegate Methods

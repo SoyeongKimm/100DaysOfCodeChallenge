@@ -8,8 +8,8 @@
 import UIKit
 import RealmSwift
 //import SwipeCellKit
-//1. import the third party library
-//20. Delete import statement
+//1. import SwipeCellKit
+//20. Delete import SwipeCellKit
 
 
 //19. Subclass SwipeTableViewController
@@ -112,7 +112,7 @@ class CategoryViewController: SwipeTableViewController {
 //28. Override the method for deletion
     override func updateModel(at indexPath: IndexPath) {
         
-        super.updateModel(at: indexPath)
+        //super.updateModel(at: indexPath)
         
         if let categoryForDeletion = self.categories?[indexPath.row] {
             
@@ -125,7 +125,7 @@ class CategoryViewController: SwipeTableViewController {
             }
         }
     }
-    
+//29. Head over to TodoListViewController
 
     
     // MARK: - Add New Categories

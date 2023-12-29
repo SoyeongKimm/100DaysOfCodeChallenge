@@ -12,9 +12,12 @@ import SwipeCellKit
 class SwipeTableViewController: UITableViewController, SwipeTableViewCellDelegate {
 //15. Adopt the protocol
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+//34. Code for cell hight
+        tableView.rowHeight = 80
         
     }
     
