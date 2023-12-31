@@ -10,6 +10,7 @@ import RealmSwift
 //import SwipeCellKit
 //1. import SwipeCellKit
 //20. Delete import SwipeCellKit
+import Chameleon
 
 
 //19. Subclass SwipeTableViewController
@@ -26,7 +27,10 @@ class CategoryViewController: SwipeTableViewController {
         loadCategories()
         
 //10. Increase the size of the cell for image and text
-        tableView.rowHeight = 80
+//  Move this code to superClass
+        //tableView.rowHeight = 80
+        
+        tableView.separatorStyle = .none
     }
     
     
@@ -64,6 +68,9 @@ class CategoryViewController: SwipeTableViewController {
   
 //23. Create the superclass tableView(cellForRowAt indexPath)
 //Head over to the SwipeTableViewController
+        
+        view.backgroundColor = UIColor.randomFlat()
+//34. Change cell background color using Chameleon
         return cell
     }
 //9. Downcasting error. Change the cell's class and module.

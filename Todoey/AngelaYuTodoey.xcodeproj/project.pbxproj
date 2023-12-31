@@ -20,6 +20,8 @@
 		D05244092B2FFC3B00440236 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05244082B2FFC3B00440236 /* Category.swift */; };
 		D07F20082B3A795400300342 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D07F20072B3A795400300342 /* Realm */; };
 		D07F200A2B3A795400300342 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D07F20092B3A795400300342 /* RealmSwift */; };
+		D0D5732C2B41908F009F6A70 /* Chameleon in Frameworks */ = {isa = PBXBuildFile; productRef = D0D5732B2B41908F009F6A70 /* Chameleon */; };
+		D0D5732E2B41908F009F6A70 /* ChameleonSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0D5732D2B41908F009F6A70 /* ChameleonSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D5732E2B41908F009F6A70 /* ChameleonSwift in Frameworks */,
 				D07F200A2B3A795400300342 /* RealmSwift in Frameworks */,
+				D0D5732C2B41908F009F6A70 /* Chameleon in Frameworks */,
 				D02291402B3ACD9400D5AF5C /* SwipeCellKit in Frameworks */,
 				D07F20082B3A795400300342 /* Realm in Frameworks */,
 			);
@@ -51,11 +55,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C275359DD052070E431B3771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D021D0562B1EB85100896C0D = {
 			isa = PBXGroup;
 			children = (
 				D021D0612B1EB85100896C0D /* AngelaYuTodoey */,
 				D021D0602B1EB85100896C0D /* Products */,
+				C275359DD052070E431B3771 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +149,8 @@
 				D07F20072B3A795400300342 /* Realm */,
 				D07F20092B3A795400300342 /* RealmSwift */,
 				D022913F2B3ACD9400D5AF5C /* SwipeCellKit */,
+				D0D5732B2B41908F009F6A70 /* Chameleon */,
+				D0D5732D2B41908F009F6A70 /* ChameleonSwift */,
 			);
 			productName = AngelaYuTodoey;
 			productReference = D021D05F2B1EB85100896C0D /* AngelaYuTodoey.app */;
@@ -169,6 +183,7 @@
 			packageReferences = (
 				D07F20062B3A795400300342 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				D022913E2B3ACD9400D5AF5C /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				D0D5732A2B41908F009F6A70 /* XCRemoteSwiftPackageReference "Chameleon" */,
 			);
 			productRefGroup = D021D0602B1EB85100896C0D /* Products */;
 			projectDirPath = "";
@@ -281,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -338,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -444,6 +459,14 @@
 				minimumVersion = 10.45.2;
 			};
 		};
+		D0D5732A2B41908F009F6A70 /* XCRemoteSwiftPackageReference "Chameleon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drasticactions/Chameleon.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -461,6 +484,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D07F20062B3A795400300342 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		D0D5732B2B41908F009F6A70 /* Chameleon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0D5732A2B41908F009F6A70 /* XCRemoteSwiftPackageReference "Chameleon" */;
+			productName = Chameleon;
+		};
+		D0D5732D2B41908F009F6A70 /* ChameleonSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0D5732A2B41908F009F6A70 /* XCRemoteSwiftPackageReference "Chameleon" */;
+			productName = ChameleonSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

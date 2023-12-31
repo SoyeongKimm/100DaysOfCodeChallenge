@@ -38,7 +38,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#49**|13|14|15|16|17|18|19|
 |**#50**|20|21|22|23|24|25|26|
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
-|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|40|
+|**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|41|42|43|44|45|46|47|
 |**#02**|48|49|50|51|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
@@ -74,6 +74,13 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+### Day 40 (Dec 31, 2023)
+- Worked on integrating Chameleon using SPM and CocoaPods
+- Reference <br>
+https://kmooc.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/10929540#questions/20505240
+https://kmooc.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/10929540#questions/12978282
+
+<br>
 
 ### Day 39 (Dec 30, 2023)
 - Tried to install Chameleon by Swift Package Manager not CocoaPods but failed
