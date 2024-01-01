@@ -29,7 +29,8 @@ class CategoryViewController: SwipeTableViewController {
 //10. Increase the size of the cell for image and text
 //  Move this code to superClass
         //tableView.rowHeight = 80
-        
+
+//35. Remove the separator
         tableView.separatorStyle = .none
     }
     
@@ -69,8 +70,19 @@ class CategoryViewController: SwipeTableViewController {
 //23. Create the superclass tableView(cellForRowAt indexPath)
 //Head over to the SwipeTableViewController
         
-        view.backgroundColor = UIColor.randomFlat()
+        
 //34. Change cell background color using Chameleon
+        cell.backgroundColor = UIColor.randomFlat()
+
+//38. Set the default color
+        cell.backgroundColor = UIColor(hexString: categories?[indexPath.row].color ?? "B6D9E2")
+        
+//39. Optional binding
+//        if let category = categories?[indexPath.row] {
+//            cell.textLabel?.text = category.name ?? "No categories added yet."
+//            cell.backgroundColor = UIColor(hexString: category.color ?? "B6D9E2")
+//        }
+
         return cell
     }
 //9. Downcasting error. Change the cell's class and module.
@@ -148,6 +160,9 @@ class CategoryViewController: SwipeTableViewController {
             
             let newCategory = Category()
             newCategory.name = textField.text!
+
+//37.
+            newCategory.color = UIColor.randomFlat().hexValue()
             
             self.save(category: newCategory)
         }

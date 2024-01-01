@@ -99,7 +99,7 @@
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" red="0.71283084149999998" green="0.85114079710000001" blue="0.88730257749999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.71372549019607845" green="0.85098039215686272" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
                             <color key="backgroundColor" red="0.71283084149999998" green="0.85114079710000001" blue="0.88730257749999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
