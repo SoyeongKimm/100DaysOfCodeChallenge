@@ -7,7 +7,7 @@
 
 import UIKit
 import RealmSwift
-import Chameleon
+import ChameleonSwift
 //41. Import statement
 
 //29. <Subclass SwipeTableViewController>
@@ -16,7 +16,10 @@ class TodoListViewController: SwipeTableViewController {
     
     var todoItems: Results<Item>?
     let realm = try! Realm()
-
+    
+//45. Modify the properties of searchBar > Make IBOutlet
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     var selectedCategory: Category? {
         didSet {
             loadItems()
@@ -37,6 +40,43 @@ class TodoListViewController: SwipeTableViewController {
         
 //41.
         tableView.separatorStyle = .none
+        
+//43.
+        //navigationController?.navigationBar.barTintColor = UIColor(hexString: selectedCategory.color)
+        
+//        if let colorHex = selectedCategory?.color {
+//            navigationController?.navigationBar.barTintColor = UIColor(hexString: colorHex)
+//        }
+    }
+
+//44. Move the code to viewWillAppear
+    override func viewWillAppear(_ animated: Bool) {
+        
+        title = selectedCategory!.name
+        
+        if let colorHex = selectedCategory?.color {
+            guard let navBar = navigationController?.navigationBar else {fatalError("Navigation controller does not exist.")}
+            
+            //navBar.barTintColor = UIColor(hexString: colorHex)
+            
+//47.
+            //navBar.tintColor = ContrastColorOf(UIColor(hexString: colorHex), returnFlat: true)
+            
+//46.
+            //searchBar.barTintColor = UIColor(hexString: colorHex)
+            
+            
+//48. Optional binding
+            if let navBarColor = UIColor(hexString: colorHex) {
+                navBar.barTintColor = navBarColor
+                navBar.tintColor = ContrastColorOf(navBarColor, returnFlat: true)
+                navBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor : ContrastColorOf(navBarColor, returnFlat: true)]
+                searchBar.barTintColor = navBarColor
+            }
+            
+//49. Change the barButtonItem tint color to default (Storyboard)
+//50. Go to CategoryViewController
+        }
     }
     
     // MARK: - TableView DataSource Methods
@@ -56,11 +96,16 @@ class TodoListViewController: SwipeTableViewController {
             
 //40.
             //cell.backgroundColor = FlatSkyBlue().darken(byPercentage: CGFloat(indexPath.row / todoItems?.count))
-            if let color = FlatSkyBlue().darken(byPercentage: CGFloat(indexPath.row) / CGFloat(todoItems!.count)) {
+//            if let color = FlatSkyBlue().darken(byPercentage: CGFloat(indexPath.row) / CGFloat(todoItems!.count)) {
+//                cell.backgroundColor = color
+//                cell.textLabel?.textColor = ContrastColorOf(color, returnFlat: true)
+//            }
+            
+//41. Match the color with the category
+            if let color = UIColor(hexString: selectedCategory!.color)?.darken(byPercentage: CGFloat(indexPath.row) / CGFloat(todoItems!.count)) {
                 cell.backgroundColor = color
                 cell.textLabel?.textColor = ContrastColorOf(color, returnFlat: true)
             }
-            
             
             cell.accessoryType = item.done ? .checkmark : .none
         } else {
@@ -177,3 +222,10 @@ extension TodoListViewController: UISearchBarDelegate {
         }
     }
 }
+
+
+//42. Prefers Large Titles
+// Storyboard > Navigation Controller Scene > Navigation Bar > Attributes inspector > Prefers Large Titles checked
+
+
+

@@ -10,7 +10,7 @@ import RealmSwift
 //import SwipeCellKit
 //1. import SwipeCellKit
 //20. Delete import SwipeCellKit
-import Chameleon
+import ChameleonSwift
 
 
 //19. Subclass SwipeTableViewController
@@ -34,6 +34,15 @@ class CategoryViewController: SwipeTableViewController {
         tableView.separatorStyle = .none
     }
     
+    
+//50. NavigationBar background color
+    override func viewWillAppear(_ animated: Bool) {
+     
+        guard let navBar = navigationController?.navigationBar else { fatalError("Navigation controller does not exist.")
+        }
+        
+        navBar.backgroundColor = UIColor(hexString: "B6D9E2")
+    }
     
     // MARK: - TableView DataSource Methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -62,7 +71,7 @@ class CategoryViewController: SwipeTableViewController {
         
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
         
-        cell.textLabel?.text = categories?[indexPath.row].name ?? "No categories added yet."
+        //cell.textLabel?.text = categories?[indexPath.row].name ?? "No categories added yet."
         
 //22. get rid of all of the mentions of SwipeCellKit
 //        cell.delegate = self
@@ -72,17 +81,29 @@ class CategoryViewController: SwipeTableViewController {
         
         
 //34. Change cell background color using Chameleon
-        cell.backgroundColor = UIColor.randomFlat()
+        //cell.backgroundColor = UIColor.randomFlat()
 
 //38. Set the default color
-        cell.backgroundColor = UIColor(hexString: categories?[indexPath.row].color ?? "B6D9E2")
+        //cell.backgroundColor = UIColor(hexString: categories?[indexPath.row].color ?? "B6D9E2")
         
 //39. Optional binding
 //        if let category = categories?[indexPath.row] {
-//            cell.textLabel?.text = category.name ?? "No categories added yet."
-//            cell.backgroundColor = UIColor(hexString: category.color ?? "B6D9E2")
+//            cell.textLabel?.text = category.name
+//            cell.backgroundColor = UIColor(hexString: category.color)
 //        }
 
+//51. Add code to 39
+        if let category = categories?[indexPath.row] {
+            cell.textLabel?.text = category.name
+            
+            guard let categoryColor = UIColor(hexString: category.color) else {fatalError()}
+            
+            cell.backgroundColor = categoryColor
+            cell.textLabel?.textColor = ContrastColorOf(categoryColor, returnFlat: true)
+        }
+        
+        
+                
         return cell
     }
 //9. Downcasting error. Change the cell's class and module.
@@ -103,6 +124,7 @@ class CategoryViewController: SwipeTableViewController {
         if let indexPath = tableView.indexPathForSelectedRow {
             destinationVC.selectedCategory = categories?[indexPath.row]
         }
+        
     }
 
     
