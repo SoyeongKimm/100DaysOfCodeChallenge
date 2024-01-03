@@ -41,23 +41,25 @@ class TodoListViewController: SwipeTableViewController {
 //41.
         tableView.separatorStyle = .none
         
-//43.
+//43. change the nav bar to be consistent, also with the background color of the category
         //navigationController?.navigationBar.barTintColor = UIColor(hexString: selectedCategory.color)
-        
+//optional binding
 //        if let colorHex = selectedCategory?.color {
+//            guard let navBar = navigationController?.navigationBar else {fatalError("Navigation controller does not exist.")}
 //            navigationController?.navigationBar.barTintColor = UIColor(hexString: colorHex)
 //        }
+       
     }
 
 //44. Move the code to viewWillAppear
     override func viewWillAppear(_ animated: Bool) {
-        
+
         title = selectedCategory!.name
         
         if let colorHex = selectedCategory?.color {
             guard let navBar = navigationController?.navigationBar else {fatalError("Navigation controller does not exist.")}
             
-            //navBar.barTintColor = UIColor(hexString: colorHex)
+            navBar.barTintColor = UIColor(hexString: colorHex)
             
 //47.
             //navBar.tintColor = ContrastColorOf(UIColor(hexString: colorHex), returnFlat: true)

@@ -41,7 +41,7 @@ class CategoryViewController: SwipeTableViewController {
         guard let navBar = navigationController?.navigationBar else { fatalError("Navigation controller does not exist.")
         }
         
-        navBar.backgroundColor = UIColor(hexString: "B6D9E2")
+        navBar.backgroundColor = UIColor(hexString: "1D9BF6")
     }
     
     // MARK: - TableView DataSource Methods
@@ -71,7 +71,7 @@ class CategoryViewController: SwipeTableViewController {
         
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
         
-        //cell.textLabel?.text = categories?[indexPath.row].name ?? "No categories added yet."
+        cell.textLabel?.text = categories?[indexPath.row].name ?? "No categories added yet."
         
 //22. get rid of all of the mentions of SwipeCellKit
 //        cell.delegate = self
@@ -94,16 +94,13 @@ class CategoryViewController: SwipeTableViewController {
 
 //51. Add code to 39
         if let category = categories?[indexPath.row] {
-            cell.textLabel?.text = category.name
+            //cell.textLabel?.text = category.name
             
             guard let categoryColor = UIColor(hexString: category.color) else {fatalError()}
             
             cell.backgroundColor = categoryColor
             cell.textLabel?.textColor = ContrastColorOf(categoryColor, returnFlat: true)
         }
-        
-        
-                
         return cell
     }
 //9. Downcasting error. Change the cell's class and module.
