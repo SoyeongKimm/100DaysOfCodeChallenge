@@ -41,7 +41,7 @@ class CategoryViewController: SwipeTableViewController {
         guard let navBar = navigationController?.navigationBar else { fatalError("Navigation controller does not exist.")
         }
         
-        navBar.backgroundColor = UIColor(hexString: "1D9BF6")
+        navBar.backgroundColor = UIColor(hexString: "#1D9BF6")
     }
     
     // MARK: - TableView DataSource Methods
