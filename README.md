@@ -1,6 +1,10 @@
 # 100DaysOfCode Challenge
 
-This is my first #100DaysOfCode challenge. I have been challenging myself to code for at least an hour a day for 100 consecutive days from November 22, 2023. This repository is created on its 31st day. I am joining the challenge with Swift and iOS App development. I am following the course [iOS & Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/) by Angela Yu at The App Brewery which is the best iOS course ever! Let's get coding!
+This is my first #100DaysOfCode challenge. I have been challenging myself to code for at least an hour a day for 100 consecutive days from November 22, 2023. This repository is created on its 31st day. 
+
+I am joining the challenge with Swift and iOS App development. I am studying to become a developer and following the course [iOS & Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/) by Angela Yu who is the best instructor ever! 
+
+In this repository, I will log my progress of the journey to become an app developer for 100 days. Let's get coding!
 
 
 ### Contents
@@ -39,7 +43,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#50**|20|21|22|23|24|25|26|
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
-|**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|46|47|
+|**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|47|
 |**#02**|48|49|50|51|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
@@ -74,6 +78,13 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 46 (6 Jan, 2024)
+- Reread the job requirements for the position I want
+- Revised my study plan
+- Read the book about Git & GitHub and added new shortcuts and commands to the list
+
+<br>
 
 ### Day 45 (5 Jan, 2024)
 - Watched Section 31 "How to submit your app to the App Store"
