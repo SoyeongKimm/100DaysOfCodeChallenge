@@ -80,6 +80,27 @@ A click on any day leads me straight to its corresponding daily log.
 ## Daily Log 
 
 ### Day 50 (10 Jan, 2024)
+- Learned how to add an image in my README
+   1. Create a folder in the local repository 
+   2. Move the images into the folder 
+   3. Write code where the image should be in README <br>
+   Note. In order to maintain the image's aspect ratio, specify only one of either width or height
+      ```markdown
+      <img src = "FolderName/ImageName.extension" width = "SizeYouWant">
+   
+      //For example, 
+      <img src = "Images/jessica-pamp-sGRMspZmfPE-unsplash.jpg" width = "400">
+      ``````
+   
+   4. `git add`, `git commit`, and `git push` 
+
+      [<img src = "Images/jessica-pamp-sGRMspZmfPE-unsplash.jpg" width = "400">](https://unsplash.com/photos/blue-sea-under-blue-sky-and-white-clouds-during-daytime-sGRMspZmfPE)
+
+   Reference:
+      [Making A Folder Of Images For Your GitHub Readme](https://medium.com/@gl7526/making-a-folder-of-images-for-your-github-readme-2c6cd42e1439)
+   
+<br>
+
 - Lecture 283 - 284, Section 20. In-App Purchases and Apple StoreKit 
    - Table view data source and delegate methods
       - Display some text from an array into a table view
@@ -115,8 +136,8 @@ A click on any day leads me straight to its corresponding daily log.
       -> The button is located right below the last free quote. <br>
       -> Make a new UIButton(X) Make one additional cell at the bottom of the table and use it as the big purchasing button(O)
 
-<img src = "GetMoreQuotesButton.jpg" width = "100">
-
+         <img src = "Images/GetMoreQuotesButton.jpg" width = "200">
+   
 <br> 
 
 ### Day 49 (9 Jan, 2024)
