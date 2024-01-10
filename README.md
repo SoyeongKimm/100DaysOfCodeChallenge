@@ -44,7 +44,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|[47](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-47-7-jan-2024)|
-|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|50|51|52|53|54|
+|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|51|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
 |**#05**|69|    70|    71|    72|    73|    74|    75|
@@ -79,6 +79,46 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+### Day 50 (10 Jan, 2024)
+- Lecture 283 - 284, Section 20. In-App Purchases and Apple StoreKit 
+   - Table view data source and delegate methods
+      - Display some text from an array into a table view
+      ```swift
+      //An array of items
+      var array = [one, two, three, four]
+
+      
+      //Table View Data Source Methods 1 - Number of the rows
+      override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+         return array.count 
+      }
+      
+      //Table View Data Source Methods 2 - Configuration of the cell
+      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          let cell = tableView.dequeueReusableCell(withIdentifier: "IdentifierName", for: indexPath)
+          cell.textLabel?.text = array[indexPath.row]
+          return cell
+      ```
+        
+      
+      - Detect user interactions
+      ```swift
+      //Table View Delegate Method - What happens user clicks the cell
+      override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         //Print the text of the selected cell
+         print(array[indexPath.row])
+      }
+      ```
+   - Location of the "Buy" button(clickable cell, link, or anything)
+      - Should be placed where it makes sence and easy to be found
+      - In this module, in order to view more quotes user should make a purchase. <br> 
+      -> The button is located right below the last free quote. <br>
+      -> Make a new UIButton(X) Make one additional cell at the bottom of the table and use it as the big purchasing button(O)
+
+<img src = "GetMoreQuotesButton.jpg" width = "100">
+
+<br> 
+
 ### Day 49 (9 Jan, 2024)
 - Permission error during Jekyll installation
    - `sudo` command is not recommended due to the security issue 
@@ -86,8 +126,7 @@ A click on any day leads me straight to its corresponding daily log.
    - More blogs in Korean (did not work for me) <br> 
    https://jojoldu.tistory.com/288 <br>
    https://iyk2h.tistory.com/159
-- Watched the lectures 279 - 282 in Section 20, In-App Purchases 
-and Apple StoreKit 
+- Lectures 279 - 282 in Section 20, In-App Purchases and Apple StoreKit 
    - Only virtual products can be sold. Apple charges 30% of my earnings.
    - 80/20 principle: 80% free, 20% charging for premium features or ad removing (Recommended app for reference: [Overcast](https://apps.apple.com/us/app/overcast/id888422857))
 
@@ -304,24 +343,6 @@ Resources <br>
 [MongoDB Documentation](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation)
 
 ---
-
-
-
-
-
----
-
-
-
-
----
-
-
-
-
-
----
-
 
 
 
