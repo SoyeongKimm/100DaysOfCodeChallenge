@@ -44,7 +44,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|[47](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-47-7-jan-2024)|
-|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|51|52|53|54|
+|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|52|53|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
 |**#05**|69|    70|    71|    72|    73|    74|    75|
@@ -78,6 +78,71 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 51 (11 Jan, 2024)
+- Lecture 402 - 407, Section 32. What's Next?
+How to Become a Pro iOS Developer
+   - Build a minimum viable product! Make a skateboard!
+      <img src = "Images/Section32.jpg" width = "400">
+
+- Lecture 285, Section 20. In-App Purchases and Apple StoreKit
+
+   ```swift
+   import UIKit
+   //1. Import StoreKit
+   import StoreKit
+
+   //5-1. To process a payment, implement SKPaymentTransactionObserver protocol
+   class MyTableViewController: UITableViewController, SKPaymentTransactionObserver {
+
+   //2. Create a constant to record the productID
+      let productID = "com.YourName.AppName.ProductID"
+
+      override func viewDidLoad() {
+         super.viewDidLoad()
+
+   //5-3. Declare the current class as a delegate
+         SKPaymentQueue.default().add(self)
+      }
+
+
+   //0. Be called when user clicks the "Buy" button
+      func makeAnInAppPurchase() {
+   //3. Check whether the user can purchase
+         if SKPaymentQueue.canMakePayments() {
+   //4. Make a payment request
+            let paymentRequest = SKMutablePayment()
+               paymentRequest.productIdentifier = productID
+               SKPaymentQueue.default().add(paymentRequest)
+         } else {
+               print("User can't make payments")
+         }
+      }
+
+
+   //5-2. Add the delegate method of SKPaymentTransactionObserver protocol
+      func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+
+   //5-4. To check each of the transactions, loop through it     
+         for transaction in transactions {
+               if transaction.transactionState == .purchased {
+                  //User payment successful
+                  print("Transaction successful!")
+               } else if transaction.transactionState == .failed {
+                  // User payment failed(cancelled)
+                  print("Transaction failed")
+               }
+         }
+      }
+   }
+   ```
+
+**Reference** <br>
+Class [`SKPaymentQueue`](https://developer.apple.com/documentation/storekit/skpaymentqueue) <br>
+Protocol [`SKPaymentTransactionObserver`](https://developer.apple.com/documentation/storekit/skpaymenttransactionobserver) <br>
+Delegate Method [`paymentQueue(_:updatedTransactions:)`](https://developer.apple.com/documentation/storekit/skpaymenttransactionobserver/1506107-paymentqueue)
+
+<br>
 
 ### Day 50 (10 Jan, 2024)
 - Learned how to add an image in my README
