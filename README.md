@@ -44,7 +44,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|[47](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-47-7-jan-2024)|
-|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|53|54|
+|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|[53](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-53-13-jan-2024)|54|
 |**#03**|55|    56|    57|    58|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
 |**#05**|69|    70|    71|    72|    73|    74|    75|
@@ -79,9 +79,16 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+### Day 53 (13 Jan, 2024)
+- Lecture 289, Section 20. In-App Purchases and Apple StoreKit
+   - Learned how to implement the in-app purchase restoration process
+   - Reference: [Restoring purchased products](https://developer.apple.com/documentation/storekit/in-app_purchase/original_api_for_in-app_purchase/restoring_purchased_products)
+
+<br>
+
 ### Day 52 (12 Jan, 2024)
 - Lecture 286 - 288, Section 20. In-App Purchases and Apple StoreKit
-   - Implemented the in-app purchase process
+   - Implemented the in-app purchase process in [InspoQuotes](https://github.com/SoyeongKimm/100DaysOfCodeChallenge/blob/main/InspoQuotes/InspoQuotes/QuoteTableViewController.swift)
    - Added the code and comments in the code block of Day 51 
 
 <br>
@@ -154,7 +161,7 @@ How to Become a Pro iOS Developer
    }
    ```
 
-**Resource** <br>
+**Reference** <br>
 Framework [`StoreKit`](https://developer.apple.com/documentation/storekit) <br>
 Class [`SKPaymentQueue`](https://developer.apple.com/documentation/storekit/skpaymentqueue) <br>
 Protocol [`SKPaymentTransactionObserver`](https://developer.apple.com/documentation/storekit/skpaymenttransactionobserver) <br>
@@ -442,6 +449,13 @@ How to remove CocoaPods and all traces from project
 1. `$ pod deintegrate`
 2. `$ pod cache clean --all`
 3. Delete 1) Podfile, 2) Podfile.lock, 3) ProjectName.xcworkspace
+
+Resources <br>
+[MongoDB Documentation](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation)
+
+---
+
+
 
 Resources <br>
 [MongoDB Documentation](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation)

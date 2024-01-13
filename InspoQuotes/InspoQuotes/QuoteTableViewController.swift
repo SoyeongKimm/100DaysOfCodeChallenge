@@ -121,8 +121,6 @@ class QuoteTableViewController: UITableViewController, SKPaymentTransactionObser
         } else {
             print("User can't make payments")
         }
-        
-        
     }
 
 //10-2. Delegate Method of SKPaymentTransactionObserver protocol
@@ -138,7 +136,8 @@ class QuoteTableViewController: UITableViewController, SKPaymentTransactionObser
                 showPremiumQuotes()
 
 //13-1. Check if the user already purchased as soon as the app runs
-                UserDefaults.standard.set(true, forKey: productID)
+                //UserDefaults.standard.set(true, forKey: productID)
+//14-3. Move the UserDefaults.standard.set(true, forKey: productID) into the function showPremiumQuotes
                 
 //10-6. End the transaction when success
                 SKPaymentQueue.default().finishTransaction(transaction)
@@ -153,12 +152,23 @@ class QuoteTableViewController: UITableViewController, SKPaymentTransactionObser
                 }
 //10-6. End the transaction when failure
                 SKPaymentQueue.default().finishTransaction(transaction)
+
+//14-2. Check transaction state + End the transaction
+            } else if transaction.transactionState == .restored {
+                showPremiumQuotes()
+                print("Transaction restored")
+//15. Remove the Restore button
+                navigationItem.setRightBarButton(nil, animated: true)
+                SKPaymentQueue.default().finishTransaction(transaction)
             }
         }
     }
     
 //11-2. Create the method to give user access to paid content
     func showPremiumQuotes() {
+//14-3. Move the UserDefaults.standard.set(true, forKey: productID) into the function showPremiumQuotes before reloading the table
+        UserDefaults.standard.set(true, forKey: productID)
+        
 //11-3. Add the premiumQuotes array(let) to the quotesToShow array(var)
         quotesToShow.append(contentsOf: premiumQuotes)
 //11-4. Reload the table view -> Trigger the data source methods
@@ -180,10 +190,10 @@ class QuoteTableViewController: UITableViewController, SKPaymentTransactionObser
     }
     
     
-
+//14-1. Implement the in-app purchase restoration
     @IBAction func restorePressed(_ sender: UIBarButtonItem) {
-        
+        //Asks the payment queue to restore previously completed purchases.
+        //This hits up Apple servers, checks the user's Apple ID against all of the purchases they've made before.
+        SKPaymentQueue.default().restoreCompletedTransactions()
     }
-
-
 }
