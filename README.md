@@ -8,12 +8,12 @@ In this repository, I will log the progress of my coding journey for 100 days. L
 
 
 ### Contents
-* [Rules](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#rules)
-* [Study Plan & Do](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#study-plan--do)
-* [Challenge Calendar](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#challenge-calendar)
-* [Daily Log](https://github.com/SoyeongKimm/100DaysOfCode?tab=readme-ov-file#dayily-log)
+* [Rules](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#rules)
+* [Study Plan & Do](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#study-plan--do)
+* [Challenge Calendar](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#challenge-calendar)
+* [Daily Log](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#dayily-log)
 
----
+--------------------------------------------------------------
 <br>
 
 ## Rules
@@ -44,8 +44,8 @@ A click on any day leads me straight to its corresponding daily log.
 |**#51**|27|28|29|30|[31](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-31-dec-22-2023)|[32](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-32-dec-23-2023)|[33](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-33-dec-24-2023)|
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|[47](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-47-7-jan-2024)|
-|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|[53](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-53-13-jan-2024)|54|
-|**#03**|55|    56|    57|    58|    59|    60|    61|
+|**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|[53](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-53-13-jan-2024)|[54](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-54-14-jan-2024)|
+|**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|    56|    57|    58|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
 |**#05**|69|    70|    71|    72|    73|    74|    75|
 |**#06**|76|    77|    78|    79|    80|    81|    82|
@@ -78,6 +78,20 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 55 (15 Jan, 2024)
+- Lecture 415 - 420, Section 33 The Complete App Design
+   - Learned about typography(serif, san serif of the different time era)
+   - Learned I should not use fancy fonts which I often used in my previous projects
+
+<br>
+
+### Day 54 (14 Jan, 2024)
+- Lecture 408 - 414, Section 33 The Complete App Design
+   - Learned the colour theory and how to combine colours (analogous, complementary, split, triadic, monochromatic colours)
+   - Used the recommended tools for color palettes
+
+<br>
 
 ### Day 53 (13 Jan, 2024)
 - Lecture 289, Section 20. In-App Purchases and Apple StoreKit
@@ -321,7 +335,7 @@ https://kmooc.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/109
 ### Day 38 (Dec 29, 2023)
 - Completed the challenge to subClass the superClass
 - Revised the class inheritance and extension
-- Learned a new third party library [Chameleon](https://github.com/vicc/chameleon) to integrate for coloring the cells
+- Learned a new third party library [Chameleon](https://github.com/vicc/chameleon) to integrate for colouring the cells
 - Added comments #29 to #33 for superClassing and subClassing
 
 <br>
@@ -380,7 +394,7 @@ $ pod install
     return cell
    }
    ```
-5. Adopt the `SwipeTableViewCellDelegate` protocol -> Create an extension to modularize and split up the functionality
+5. Adopt the `SwipeTableViewCellDelegate` protocol -> Create an extension to modularise and split up the functionality
    ```swift
    extension ViewController: SwipeTableViewCellDelegate {
    }
@@ -397,7 +411,7 @@ $ pod install
     }
 
     deleteAction.image = UIImage(named: "delete")
-     // customize the action appearance
+     // customise the action appearance
    
     return [deleteAction]
    }
@@ -454,13 +468,3 @@ Resources <br>
 [MongoDB Documentation](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation)
 
 ---
-
-
-
-Resources <br>
-[MongoDB Documentation](https://www.mongodb.com/docs/realm/sdk/swift/install/#installation)
-
----
-
-
-
