@@ -45,7 +45,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#52**|[34](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-34-dec-25-2023)|[35](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-35-dec-26-2023)|[36](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-36-dec-27-2023)|[37](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-37-dec-28-2023)|[38](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-38-dec-29-2023)|[39](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-39-dec-30-2023)|[40](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-40-dec-31-2023)|
 |**#01**|[41](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-41-1-jan-2024)|[42](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-42-2-jan-2024)|[43](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-43-3-jan-2024)|[44](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-44-4-jan-2024)|[45](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-45-5-jan-2024)|[46](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-46-6-jan-2024)|[47](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-47-7-jan-2024)|
 |**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|[53](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-53-13-jan-2024)|[54](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-54-14-jan-2024)|
-|**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|    58|    59|    60|    61|
+|**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|    59|    60|    61|
 |**#04**|62|    63|    64|    65|    66|    67|    68|
 |**#05**|69|    70|    71|    72|    73|    74|    75|
 |**#06**|76|    77|    78|    79|    80|    81|    82|
@@ -78,6 +78,14 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 58 (18 Jan, 2024)
+- Started to read the book, "[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692)" by Cal Newport, recommended by Angela Yu
+- Read the articles about the user interface also recommended by her
+   - Golden Rules of User Interface Design <br> https://uxplanet.org/golden-rules-of-user-interface-design-19282aeb06b#.kfznrp77q
+   - Designing User Interfaces for My Mother <br> https://medium.com/@TGines/designing-user-interfaces-for-your-mother-dd45ec50f7b0#.j4bcs8rto
+
+<br>
 
 ### Day 57 (17 Jan, 2024)
 - Lecture 421 - 428, User Interface Design, Section 33 The Complete App Design
