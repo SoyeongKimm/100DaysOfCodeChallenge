@@ -21,6 +21,11 @@ class ViewController: UIViewController {
 //#5. Clear the label text and restart accumulating numbers
         isFinishedTypingNumber = true
     
+//#6. AC, +/-, %
+        let number = Double(displayLabel.text!)!
+        //guard let number = Double(displayLabel.text!) else {
+            //fatalError("Cannot convert display label text to a Double")
+        //}
     }
 
     
@@ -41,13 +46,14 @@ class ViewController: UIViewController {
  */
         
         //displayLabel.text = sender.currentTitle
+        
 //#2. Unwrap the currentTitle
         //if let numValue = sender.currentTitle {
             //displayLabel.text = numValue
         //}
 /*
- Only one digit is displayed => accumulate numbers
- Calculation button pressed and another digit pressed => clear the lable's text => keep hold of whether if the user is done typing the number => Create a variable
+ Problem: Only one digit is displayed => Let's accumulate numbers.
+ Calculation button pressed and another digit pressed => keep hold of whether if the user is done typing the number => clear the lable's text => Create a global variable to check the typing is done or not.
  */
 
 //#4.

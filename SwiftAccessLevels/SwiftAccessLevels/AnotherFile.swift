@@ -10,11 +10,16 @@ import Foundation
 
 class AnotherClassInAnotherFile {
     
+    var aClass = AClass()
+    
     init() {
         
-        //Step 8. Try to print aFilePrivateProperty Here
+        //Step 8. Try to print aFilePrivateProperty Here - Not possible
+        //print(("\(aClass.aFilePrivateProperty) printed from AnotherClassInAnotherFile")
         
-        //Step 10. Try to print anInternalProperty Here
+        //Step 10. Try to print anInternalProperty Here - Possible
+        //print("\(aClass.anInternalProperty) printed from methodA in  AnotherClassInAnotherFile")
+        
         
     }
     
