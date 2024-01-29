@@ -47,7 +47,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#02**|[48](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-48-8-jan-2024)|[49](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-49-9-jan-2024)|[50](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-50-10-jan-2024)|[51](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-51-11-jan-2024)|[52](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-52-12-jan-2024)|[53](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-53-13-jan-2024)|[54](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-54-14-jan-2024)|
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
-|**#05**|69|    70|    71|    72|    73|    74|    75|
+|**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
 |**#06**|76|    77|    78|    79|    80|    81|    82|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
@@ -78,6 +78,12 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 69 (29 Jan, 2024)
+- Set up my new MacBook Pro M3
+    - https://www.youtube.com/watch?v=zzOqoII2QI8
+    - https://www.youtube.com/watch?v=H60wp7OiI2Q
+<br>
 
 ### Day 68 (28 Jan, 2024)
 - Read [Don't Make Me Think](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515) by Steve Krug
