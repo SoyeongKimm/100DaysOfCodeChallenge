@@ -48,7 +48,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
-|**#06**|76|    77|    78|    79|    80|    81|    82|
+|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    77|    78|    79|    80|    81|    82|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
@@ -79,10 +79,30 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+### Day 76 (5 Feb, 2024)
+- Set up my Mac
+   - Install [Homebrew](https://brew.sh/) and [Visual Studio Code](https://code.visualstudio.com/download)
+   - Cover my Mac with [Apent Macbook case(hardshell)](https://smartstore.naver.com/apent/products/8130246522?NaPm=ct%3Dls8ob5j4%7Cci%3D3964a0802962f1a34fd66f3e6c75d4510558bc5b%7Ctr%3Dslbrc%7Csn%3D453219%7Chk%3D3b4b450d6bdce3de281d08b786799312616db961)
+   - Reference [Mac Accessories > Cases & Protection](https://www.apple.com/shop/mac/accessories/cases-protection?fh=4592%2B4642%2B463f&f=shell-sleeve&page=1)
+- Finally push to this remote repository again!
+   - username: GitHub username, password: token pasted
+- Learn new shortcuts and commands for Terminal
+   - cmd + T : Add a new tab inside the existing Terminal
+   - ctrl + tab : Move to the next tab
+   - ls -la : List long format & Display all files including hidden files
+   - Reference [Keyboard shortcuts in Terminal on Mac](https://support.apple.com/en-ge/guide/terminal/trmlshtcts/2.14/mac/14.0)
+   - Reference [Linux ls Command](https://linuxopsys.com/topics/linux-ls-command)
+- Read "[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692)" by Cal Newport
+
+<br>
+
 ### Day 69 (29 Jan, 2024)
 - Set up my new MacBook Pro M3
-    - https://www.youtube.com/watch?v=zzOqoII2QI8
-    - https://www.youtube.com/watch?v=H60wp7OiI2Q
+    - [M3 MacBook Pro (2023) - First 21 Things To Do! (Tips & Tricks)](https://www.youtube.com/watch?v=zzOqoII2QI8)
+    - [FIRST Things to DO to Setup a New MacBook Pro M3](https://www.youtube.com/watch?v=H60wp7OiI2Q)
+    - [Setting up new MacBook for software development
+](https://www.youtube.com/watch?v=mmkDyV59nRo)
+
 <br>
 
 ### Day 68 (28 Jan, 2024)
