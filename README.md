@@ -7,7 +7,7 @@ I am joining the challenge with Swift and iOS App development. I am studying to 
 In this repository, I will log the progress of my coding journey for 100 days. Let's get coding!
 
 
-### Contents
+## Contents
 * [Rules](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#rules)
 * [Study Plan & Do](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#study-plan--do)
 * [Challenge Calendar](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#challenge-calendar)
@@ -15,6 +15,7 @@ In this repository, I will log the progress of my coding journey for 100 days. L
 
 --------------------------------------------------------------
 <br>
+
 
 ## Rules
 1. **Make a commitment to myself**: <br>
@@ -48,7 +49,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
-|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    77|    78|    79|    80|    81|    82|
+|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    78|    79|    80|    81|    82|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
@@ -79,6 +80,25 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+### Day 77 (6 Feb, 2024)
+- Plan
+   - Code review the Calculator module
+   - Watch Lecture 306 - 308 and write code and comments
+
+- Do
+   - [x] Code review the Calculator module
+      - Swift access levels
+      - Unwrap optionals
+   - [x] Watch Lecture 306 - 308 and write code and comments
+      - Add code to the calculation buttons
+      - Deal with the decimal place
+      - Refactor using the computed property
+
+- Reflect
+   - Refactoring with computed property should be revised tomorrow again. I finished writing and refactoring the code but must take some more serious time to rewatch the video.
+
+<br>
+
 ### Day 76 (5 Feb, 2024)
 - Set up my Mac
    - Install [Homebrew](https://brew.sh/) and [Visual Studio Code](https://code.visualstudio.com/download)
@@ -92,7 +112,7 @@ A click on any day leads me straight to its corresponding daily log.
    - ls -la : List long format & Display all files including hidden files
    - Reference [Keyboard shortcuts in Terminal on Mac](https://support.apple.com/en-ge/guide/terminal/trmlshtcts/2.14/mac/14.0)
    - Reference [Linux ls Command](https://linuxopsys.com/topics/linux-ls-command)
-- Read "[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692)" by Cal Newport
+- Read "[Deep Work](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=106724468)" by Cal Newport
 
 <br>
 
