@@ -79,6 +79,9 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+//#11. Conforming to MVC
+//Move #10 to CalculatorLogic
 
     
     @IBAction func numButtonPressed(_ sender: UIButton) {

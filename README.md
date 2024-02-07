@@ -49,7 +49,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
-|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    78|    79|    80|    81|    82|
+|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    79|    80|    81|    82|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
@@ -80,19 +80,52 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+### Day 78 (7 Feb, 2024)
+- Plan
+   - Rewatch lecture 308, review computed properties
+   - Watch Lecture 309 - 311 and write code and comments
+   - Read a book for 30 minutes
+
+- Do (- [x] Done, ~ In progress, - [ ] Not done,  ^ Not started)
+   - ^ Rewatch lecture 308, review computed properties
+   - [x] Watch lecture 309 - 311 twice
+      - [x] Conform to MVC pattern
+      - [x] Compare Swift Struct vs. Class
+   - [~] Write code and comments 
+      - [~] Conform to MVC pattern
+      - [ ] Compare Swift Struct vs. Class
+   - [x] Read "Deep Work" 
+   - Reference
+      - [Swift Standard Library](https://developer.apple.com/documentation/swift/swift-standard-library)
+      - [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes)
+      - [If your Mac doesn’t recognize an external display](https://support.apple.com/guide/mac-help/mac-recognize-external-display-mchla25b377d/mac)
+
+- Reflect
+   - The external display connection had a problem which never happened before. My Mac could not detect and recognize the other display. Unexpectedly I spent much time to fix it before my study, but it is always good to learn how to deal with the hardware around me. 
+   - I realized that I read two types of development books : self-development(self-help) and app development. Both are significantly helping me improve myself.
+   - I sat down at my desk for long enough hours but I could not finish what I planned. This is a plan for tomorrow's me.
+      - Review computed property
+      - Work on MVC pattern
+      - Study the difference between Structs and Class
+
+<br>
+
 ### Day 77 (6 Feb, 2024)
 - Plan
    - Code review the Calculator module
    - Watch Lecture 306 - 308 and write code and comments
+   - Read for 30 minutes
 
 - Do
    - [x] Code review the Calculator module
-      - Swift access levels
-      - Unwrap optionals
+      - [x] Swift access levels
+      - [x] Unwrap optionals
    - [x] Watch Lecture 306 - 308 and write code and comments
-      - Add code to the calculation buttons
-      - Deal with the decimal place
-      - Refactor using the computed property
+      - [x] Add code to the calculation buttons
+      - [x] Deal with the decimal place
+      - [x] Refactor using the computed property
+   - [x] Read "Deep Work"  
+   - Learn Markdown syntax for checkbox - [x] done - [x] not done
 
 - Reflect
    - Refactoring with computed property should be revised tomorrow again. I finished writing and refactoring the code but must take some more serious time to rewatch the video.
