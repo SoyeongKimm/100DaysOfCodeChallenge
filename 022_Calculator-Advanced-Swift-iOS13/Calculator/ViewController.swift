@@ -16,9 +16,11 @@ class ViewController: UIViewController {
     private var isFinishedTypingNumber: Bool = true
     
 //#9. Refactoring with computed property
+//Coding convention: Whenever creating a global variable, put keyword private in front.
 //We're converting numbers into Strings, and then Strings into numbers all over the place.
 //Bring the code(guard let) from #6 and #8 to setter -> Go and refactor #6 #7 and #8
 //return number is the value of the variable displayValue.
+//get-return
     private var displayValue: Double {
         get {
             guard let number = Double(displayLabel.text!) else {
@@ -69,19 +71,29 @@ class ViewController: UIViewController {
         //}
         
 //#10. Refactor: displayLabel.text -> displayValue
+        //if let calcMethod = sender.currentTitle {
+            //if calcMethod == "+/-" {
+                //displayValue = displayValue * -1 // = displayValue *= -1
+            //} else if calcMethod == "AC" {
+                //displayLabel.text = "0" // =String(0)
+            //} else if calcMethod == "%" {
+                //displayValue = displayValue * 0.01 // = displayValue *= 0.01
+            //}
+        
+//#16. Call the function calculate in CalculatorLogic Class
         if let calcMethod = sender.currentTitle {
-            if calcMethod == "+/-" {
-                displayValue = displayValue * -1 // = displayValue *= -1
-            } else if calcMethod == "AC" {
-                displayLabel.text = "0" // =String(0)
-            } else if calcMethod == "%" {
-                displayValue = displayValue * 0.01 // = displayValue *= 0.01
+            let calculator = CalculatorLogic(number: displayValue)
+            //calculator.calculate(symbol: calcMethod)
+            //displayValue = calculator.calculate(symbol: calcMethod)
+            guard let result = calculator.calculate(symbol: calcMethod) else {
+                fatalError("The result of the calculation is nil.")
             }
+            displayValue = result
         }
     }
-    
+        
 //#11. Conforming to MVC
-//Move #10 to CalculatorLogic
+//Create CalculatorLogic file, move #10 to it.
 
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
@@ -153,7 +165,6 @@ class ViewController: UIViewController {
         }
     }
 }
-
 
 
 
