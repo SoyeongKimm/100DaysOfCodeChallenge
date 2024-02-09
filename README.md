@@ -4,7 +4,7 @@ This is my first #100DaysOfCode challenge. I have been challenging myself to cod
 
 I am joining the challenge with Swift and iOS App development. I am studying to become a developer and following the course [iOS & Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/) by Angela Yu who is the best instructor ever! 
 
-In this repository, I will log the progress of my coding journey for 100 days. Let's get coding!
+In this repository, I will log the progress of my coding journey for 100 days. English is my second language. I will do my best to write this README as clear as it can be. I think the best thing of Angela Yu's course is that I can study both coding and English at once. I love her and of course love coding.
 
 
 ## Contents
@@ -49,7 +49,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
-|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    80|    81|    82|
+|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    [80](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-80-9-feb-2024)|    81|    82|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
@@ -79,19 +79,48 @@ A click on any day leads me straight to its corresponding daily log.
 <br>
 
 ## Daily Log 
+
+### Day 80 (9 Feb, 2024)
+- **Plan**
+   - Lecture 312 - 313
+      - Watch the lecture(12min, 4min respectively)
+      - Write code and comments
+       
+- **Do**
+   - 🟠 Lecture 312. How to Turn Our Model into a Struct
+      - 🟢 Watch the lecture twice
+      - 🟢 Add new words to my glossary
+      - 🟠 Write code and comments in Xcode
+   - 🟠 Lecture 313. Swift Tuples
+      - 🟢 Watch the lecture twice
+      - 🟢 Add new words to my glossary
+      - 🟠 Write code and comments
+
+- **Reflect**
+   - Study hours: 1 hour 30 minutes
+   - 
+
+<br>
+
 ### Day 79 (8 Feb, 2024)
 - **Plan** 
    - Lecture 308 / Review computed properties
    - Lecture 309 / Work on MVC pattern
-   - Lecture 310-311 / Study the difference between Structs and Class
+   - Lecture 310-311 / Study the difference between Struct and Class
 
-- **Do** (:large_green_circle: Done, :large_orange_circle: In progress, :large_red_circle: Not done)
-   - :large_green_circle: Lecture 308 / Review computed properties
-   - :large_green_circle: Lecture 309 / Work on MVC pattern
-   - :large_green_circle: Lecture 310-311 / Study the difference between Structs and Class
+- **Do** (🟢 Done, 🟠 In progress, 🔴 Not done)
+   - :green_circle: Lecture 308 / Rewatch and review code of computed properties
+   - :green_circle: Lecture 309 / Rewatch and write code and comments of MVC pattern
+   - :green_circle: Lecture 310-311 / Rewatch and write code to see the differences between the value type(structs) and referene type(classes)
+
+   - reference 
+      - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) (emojis for GitHub README markdown)
 
 - **Reflect**
-   
+   - Study hours: 4 hours 20 minutes
+   - In order to show the status of the everyday task more effectively, the colored circle will be placed as a key in front of each task: green for done, orange or amber for in progress, and red for not done. 
+   - The diffence between classes and structs is one of the most common iOS developer interview questions. The lecture about classes and structures I reviewed today gifted me a clear and detailed explanation. I will practice how to explain what I learned in my words freely and confidently.
+
 
 <br>
 
@@ -140,7 +169,7 @@ A click on any day leads me straight to its corresponding daily log.
       - [x] Deal with the decimal place
       - [x] Refactor using the computed property
    - [x] Read "Deep Work"  
-   - Learn Markdown syntax for checkbox [x] done [x] not done
+   - Learn Markdown syntax for checkbox 
 
 - Reflect
    - Refactoring with computed property should be revised tomorrow again. I finished writing and refactoring the code but must take some more serious time to rewatch the video.
