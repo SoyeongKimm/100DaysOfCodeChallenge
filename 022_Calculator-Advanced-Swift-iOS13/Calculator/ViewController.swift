@@ -35,6 +35,15 @@ class ViewController: UIViewController {
         }
     }
     
+//#19. Change it to global variable and add keyword private(Move it out of the function)
+//When initializing a data model structure, for efficiency make it as a global variable rather than a local variable.
+//Error: Cannot use instance member 'displayValue' within property initializer; property initializers run before 'self' is available.
+//-> because this is a global variable, which happens even before viewDidLoad gets called, the Swift compiler can be sure that display value is not nil at the point when you're trying to initialize CalculatorLogic.
+
+//#20. Delete the parameter
+    //private let calculator = CalculatorLogic(number: displayValue)
+    private var calculator = CalculatorLogic()
+
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         //What should happen when a non-number button(calculation button) is pressed
@@ -42,6 +51,9 @@ class ViewController: UIViewController {
 //#5. Clear the label text and restart accumulating numbers
         isFinishedTypingNumber = true
     
+//#24. Call the method
+        calculator.setNumber(displayValue)
+        
 //#6. Change the text(in the display) into Double to perform calculation
         //let number = Double(displayLabel.text!)!
         //guard let number = Double(displayLabel.text!) else {
@@ -82,7 +94,7 @@ class ViewController: UIViewController {
         
 //#16. Call the function calculate in CalculatorLogic Class
         if let calcMethod = sender.currentTitle {
-            let calculator = CalculatorLogic(number: displayValue)
+            //let calculator = CalculatorLogic(number: displayValue)
             //calculator.calculate(symbol: calcMethod)
             //displayValue = calculator.calculate(symbol: calcMethod)
             guard let result = calculator.calculate(symbol: calcMethod) else {

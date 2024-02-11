@@ -9,17 +9,29 @@
 import Foundation
 
 //#11. Conform to MVC, create a model using Class
-class CalculatorLogic {
+//class CalculatorLogic {
+    
+//#17. Turn class into struct
+struct CalculatorLogic {
  
 //#14. Create a new variable
 //it's not going to have a value until we pass it over from the ViewController(computed property).
 //Either optional Double or initialization
     //var number: Double?
-    var number: Double
+    //var number: Double
+
+//#21. Change Double to optional Double
+    private var number: Double?
     
-    init(number: Double) {
+//#23. Do not let other class modify the value of variable number. Make a function.
+    mutating func setNumber(_ number: Double) {
         self.number = number
     }
+    
+//18. Delete the initializer
+    //init(number: Double) {
+        //self.number = number
+    //}
     
     //init(n: Double) {
         //number = n
@@ -47,13 +59,26 @@ class CalculatorLogic {
 //Error: 'nil' is incompatible with return type 'Double' -> Change the return type Double to Double?
 //Go to #16 to call this function
     func calculate(symbol: String) -> Double? {
-        if symbol == "+/-" {
-            return number * -1
-        } else if symbol == "AC" {
-            return 0
-        } else if symbol == "%" {
-            return number * 0.01
+        
+//#22. Unwrap variable number
+//#25. Save the data(first number and calculation)
+        if let n = number {
+            if symbol == "+/-" {
+                return n * -1
+            } else if symbol == "AC" {
+                return 0
+            } else if symbol == "%" {
+                return n * 0.01
+            } else if symbol == "+" {
+                
+            } else if symbol == "=" {
+                
+            }
         }
         return nil
     }
 }
+
+
+//#25. Save the data(first number and calculation)
+//1)say that all in separate properties 2)create a brand-new struct that contains the first number and the operation 3)create a tuple

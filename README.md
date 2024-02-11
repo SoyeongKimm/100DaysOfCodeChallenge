@@ -49,7 +49,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#03**|[55](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-55-15-jan-2024)|[56](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-56-16-jan-2024)|[57](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-57-17-jan-2024)|[58](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-58-18-jan-2024)|[59](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-59-19-jan-2024)|[60](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-60-20-jan-2024)|[61](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-61-21-jan-2024)|
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
-|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    [80](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-80-9-feb-2024)|    81|    82|
+|**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    [80](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-80-9-feb-2024)|    81|    [82](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-82-11-feb-2024)|
 |**#07**|83|    84|    85|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
@@ -80,25 +80,46 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
+
+
+### Day 82 (11 Feb, 2024)
+
+- **Plan & Do** (🟢 Done, 🟠 In progress, 🔴 Not started)
+   - 🟢 Lecture 312. How to Turn Our Model into a Struct
+      - Rewatch the lecture and write code and comments in Xcode
+   - 🟢 Lecture 313. Swift Tuples
+      - Rewatch the lecture and write code and comments in Xcode
+   - 🟢 Practice to explain the difference between structs and classes while taking a walk
+
+- **What I learned**
+   - Revision of Swift access levels
+   - Keyword `private` and `mutating` in Structure
+   - The definition, usage, and syntax of Swift tuples
+   - Reference 
+      - [Swift Access Control](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/)
+      - [Type > Tuple Type](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types/#Tuple-Type)
+
+<br>
+
 ### Day 80 (9 Feb, 2024)
 - **Plan**
    - Lecture 312 - 313
       - Watch the lecture(12min, 4min respectively)
       - Write code and comments
        
-- **Do**
+- **Do** 
    - 🟠 Lecture 312. How to Turn Our Model into a Struct
       - 🟢 Watch the lecture twice
-      - 🟢 Add new words to my glossary
-      - 🟠 Write code and comments in Xcode
+      - 🟢 Add new terms to my glossary
+      - 🔴 Write code and comments in Xcode
    - 🟠 Lecture 313. Swift Tuples
       - 🟢 Watch the lecture twice
-      - 🟢 Add new words to my glossary
-      - 🟠 Write code and comments
+      - 🟢 Add new terms to my glossary
+      - 🔴 Write code and comments in Xcode
 
 - **Reflect**
    - Study hours: 1 hour 30 minutes
-   - 
+   
 
 <br>
 
@@ -108,10 +129,10 @@ A click on any day leads me straight to its corresponding daily log.
    - Lecture 309 / Work on MVC pattern
    - Lecture 310-311 / Study the difference between Struct and Class
 
-- **Do** (🟢 Done, 🟠 In progress, 🔴 Not done)
-   - :green_circle: Lecture 308 / Rewatch and review code of computed properties
-   - :green_circle: Lecture 309 / Rewatch and write code and comments of MVC pattern
-   - :green_circle: Lecture 310-311 / Rewatch and write code to see the differences between the value type(structs) and referene type(classes)
+- **Do** 
+   - 🟢 Lecture 308 / Rewatch and review code of computed properties
+   - 🟢 Lecture 309 / Rewatch and write code and comments of MVC pattern
+   - 🟢 Lecture 310-311 / Rewatch and write code to see the differences between the value type(structs) and referene type(classes)
 
    - reference 
       - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) (emojis for GitHub README markdown)
