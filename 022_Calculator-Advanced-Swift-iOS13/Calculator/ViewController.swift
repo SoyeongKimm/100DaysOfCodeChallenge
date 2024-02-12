@@ -55,12 +55,15 @@ class ViewController: UIViewController {
         calculator.setNumber(displayValue)
         
 //#6. Change the text(in the display) into Double to perform calculation
+//String -> Double = always produces optional Double. because of more possibility to fail.
+//Int <-> Double = no optional, Int/Double -> String = no optional
         //let number = Double(displayLabel.text!)!
         //guard let number = Double(displayLabel.text!) else {
-            //fatalError("Cannot convert display label text to a Double")
+            //fatalError("Cannot convert display label text to a Double.")
         //}
         
-//#7. +/-, A/C, % currentTitle unwrap -> match -> calculate
+//#7. Use the num and perform calculation.
+// +/-, A/C, % currentTitle unwrap -> match -> calculate
         //if let calcMethod = sender.currentTitle {
             //if calcMethod == "+/-" {
                 //displayLabel.text = String(number * -1)
@@ -148,7 +151,7 @@ class ViewController: UIViewController {
             //}
         //}
         
-//#8. Dealing with the decimal place. Check the dot inside else statement.
+//#8. Dealing with the decimal place. Check the dot inside the else statement.
         if let numValue = sender.currentTitle {
             if isFinishedTypingNumber {
                 displayLabel.text = numValue
