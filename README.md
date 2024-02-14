@@ -50,7 +50,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
 |**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    [80](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-80-9-feb-2024)|    81|    [82](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-82-11-feb-2024)|
-|**#07**|[83](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-83-12-feb-2024)|    [84](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-84-13-feb-2024)|    85|    86|    87|    88|    89|
+|**#07**|[83](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-83-12-feb-2024)|    [84](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-84-13-feb-2024)|    [85](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-85-14-feb-2024)|    86|    87|    88|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
 
@@ -80,20 +80,34 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
-### Day 84 (13 Feb, 2024)
+### Day 85 (14 Feb, 2024)
+
 - **Plan & Do** (🟢 Done, 🟠 In progress, 🔴 Not started)
-   - 🟠 Review Calculator module
-      - 🟠 Rewrite code from the start to the end
-      - 🟠 Review new concepts covered in this module
+   - 🟢 Review Calculator module(Lecture 309-314)
+      - 🟢 Rewrite code 
+      - 🟢 Review new concepts covered in this module
+   - 🟢 Read [Coding iPhone Apps for Kids](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=137107003) by Gloria Winquist
 
 - **What I Learned**
-   - Review Swift access levels, optionals, decimal place, and computed properties
+   - Revision of switch statement, classes and structs, MVC pattern, `if let` and `guard let`
+
+<br>
+
+### Day 84 (13 Feb, 2024)
+- **Plan & Do** 
+   - 🟢 Review Calculator module(Lecture 304-308)
+      - 🟢 Rewrite code from the start to the end
+      - 🟢 Review new concepts covered in this module
+   - 🟢 Read [Coding iPhone Apps for Kids](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=137107003) written by Gloria Winquist
+
+- **What I Learned**
+   - Revision of Swift access levels, optionals, decimal place, and computed properties
 
 <br>
 
 ### Day 83 (12 Feb, 2024)
 
-- **Plan & Do** (🟢 Done, 🟠 In progress, 🔴 Not started)
+- **Plan & Do** 
    - 🟢 Lecture 314. Guard Let vs. If Let When to Use Which?(19min)
       - 🟢 Watch lecture 
       - 🟢 Write code and comments
