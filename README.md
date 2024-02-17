@@ -50,7 +50,7 @@ A click on any day leads me straight to its corresponding daily log.
 |**#04**|[62](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-62-22-jan-2024)|[63](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-63-23-jan-2024)|[64](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-64-24-jan-2024)|[65](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-65-25-jan-2024)|[66](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-66-26-jan-2024)|[67](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-67-27-jan-2024)|    [68](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-68-28-jan-2024)|
 |**#05**|[69](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-69-29-jan-2024)|    70|    71|    72|    73|    74|    75|
 |**#06**|[76](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-76-5-feb-2024)|    [77](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-77-6-feb-2024)|    [78](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-78-7-feb-2024)|    [79](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-79-8-feb-2024)|    [80](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-80-9-feb-2024)|    81|    [82](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-82-11-feb-2024)|
-|**#07**|[83](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-83-12-feb-2024)|    [84](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-84-13-feb-2024)|    [85](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-85-14-feb-2024)|    [86](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-86-15-feb-2024)|    [87](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-87-16-feb-2024)|    88|    89|
+|**#07**|[83](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-83-12-feb-2024)|    [84](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-84-13-feb-2024)|    [85](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-85-14-feb-2024)|    [86](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-86-15-feb-2024)|    [87](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-87-16-feb-2024)|    [88](https://github.com/SoyeongKimm/100DaysOfCodeChallenge?tab=readme-ov-file#day-88-17-feb-2024)|    89|
 |**#08**|90|    91|    92|    93|    94|    95|    96|
 |**#09**|97|    98|    99|    100|  |  |  |
 
@@ -80,8 +80,19 @@ A click on any day leads me straight to its corresponding daily log.
 
 ## Daily Log 
 
-### Day 87 (16 Feb, 2024)
+### Day 88 (17 Feb, 2024)
 - **Plan & Do** (🟢 Done, 🟠 In progress, 🔴 Not started)
+   - 🟠 Review Lecture 317 - 323 (Section 23. CoreML and Machine Learning)
+      - 🟢 Rewatch the lectures
+      - 🟠 Take notes in Notion
+
+- **What I Learned**
+   - Revision of new concepts about Machine Learning and CoreML
+
+<br>
+
+### Day 87 (16 Feb, 2024)
+- **Plan & Do** 
    - 🟢 Lecture 324 - 328 (Section 23. CoreML and Machine Learning)
       - 🟢 Watch the video
       - 🟢 Write code and comments
@@ -97,7 +108,7 @@ A click on any day leads me straight to its corresponding daily log.
 
 ### Day 86 (15 Feb, 2024)
 
-- **Plan & Do** (🟢 Done, 🟠 In progress, 🔴 Not started)
+- **Plan & Do** 
    - 🟢 Lecture 317 - 323 (Section 23. CoreML and Machine Learning)
       - 🟢 Watch the video
       - 🔴 Take notes
